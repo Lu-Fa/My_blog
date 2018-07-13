@@ -1,0 +1,190 @@
+nav{
+	background: #ccc;
+	height:50px;
+}
+nav ul
+{
+  height: 50px;
+
+}
+nav ul li
+{
+	list-style: none;
+	width: 150px;
+	line-height:inherit;
+	text-align: center;
+	float: right;
+	margin-right:30px;
+
+}
+
+ nav ul li a
+{
+	text-decoration: none;
+	display: inline-block;
+	line-height: 50px;
+	font-size: 24px;
+	letter-spacing: 3px;
+    width: inherit;
+}
+#logo
+{
+  float:left;
+}
+#logo a
+{
+	font-size: 36px;
+	font-weight: 600px;
+	color: blue;
+	padding-left: 20px;
+}
+a:hover
+{
+	background: #d4781d;
+	transform:scale(1.1);
+
+}
+#content
+{
+   
+
+}
+.inner
+{
+	 height: 900px;
+	background: url(../PIC/1.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+
+
+}
+q
+{
+	font-size: 24px;
+	line-height:50px;
+	color: #C35A12;
+	position: relative;
+	padding: 30px;
+
+
+
+}
+/*#SideMenus
+{
+	border: solid;
+	height: 300px;
+	width: 150px;
+	float:right;
+	background: #7F08F4;
+}*/
+.hidden
+{
+    height:700px;
+    font-size: 24px;
+    width: 200px;
+    background: #586D93;
+}
+.hidden li
+{
+	margin-top: 30px;
+	padding-left:50px;
+	list-style: none;
+	color:#ED660B;
+}
+.section1
+{
+	height: 600px;
+	background: #ACDC4D;
+
+}
+.section1 img
+{
+	width: 50%;
+	height: 100%;
+}
+.section1 p
+{
+
+	max-width: 40%;
+	position: relative;
+	float: right;
+	font-size: 24px;
+	letter-spacing: 2px;
+	padding-top: 50px;
+	line-height: 30px;
+
+}
+
+.section2
+{
+	height: 600px;
+	background: #ACDC4D;
+
+}
+.section2 img
+{
+	width: 50%;
+	height: 100%;
+	float: right;
+}
+.section2 p
+{
+
+	max-width: 40%;
+	position: relative;
+	float:left;
+	font-size: 24px;
+	letter-spacing: 2px;
+	padding-top: 50px;
+	line-height: 30px;
+
+
+}
+
+
+.section3
+{
+	height: 600px;
+	background: #ACDC4D;
+
+}
+.section3 img
+{
+	width: 50%;
+	height: 100%;
+}
+.section3 p
+{
+
+	max-width: 40%;
+	position: relative;
+	float: right;
+	font-size: 24px;
+	letter-spacing: 2px;
+	padding-top: 50px;
+	line-height: 30px;
+
+
+}
+
+footer
+{
+	height: 100px;
+	background: #BF804D;
+	text-align: center;
+}
+footer li 
+{
+ display: inline-block;
+ margin-top: 50px;
+ color: #0F0D0D;
+
+}
+footer li a
+{
+	font-size: 24px;
+	padding: 24px;
+	margin: 30px;
+	
+}
+

@@ -1,0 +1,43 @@
+body
+{
+	background: #585454;
+	text-align: center;
+}
+h1
+{
+	color:#93640E;
+	font-size: 48px;
+}
+.side_left
+{
+	float: left;
+	width: 20%;
+	height: 700px;
+}
+.side_right
+{
+	float: right;
+	width: 20%;
+	height: 700px;
+}
+.main
+{
+
+}
+li
+{
+	margin-left: 360px;
+	width: 600px;
+	list-style: none;
+	background: #4D814C;
+	height: 60px;
+	margin-top: 30px;
+}
+a
+{
+    font-size: 36px;
+	text-decoration: none;
+
+	color: #A64904;
+
+}

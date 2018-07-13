@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="renderer" content="webkit"/>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<title>图片滚动</title>
+	<link rel="stylesheet" type="text/css" href="scrollPic.css">
+</head>
+<body>
+<h1>我的相册</h1>
+<div style="margin:100px auto;width:1080px;">
+	<div class="scroll">
+		<div class="scroll_left" id="LeftArr"></div>
+		<div class="pic" id="scrollPic">
+		<ul>
+			<li><a href="#" target="_blank" title=""><img src="images/pic01.jpg" width="400" height="500" alt="" /></a></li>
+			<li><a href="#" target="_blank" title=""><img src="images/pic02.jpg" width="400" height="500" alt="" /></a></li>
+			<li><a href="#" target="_blank" title=""><img src="images/pic03.jpg" width="400" height="500" alt="" /></a></li>
+			<li><a href="#" target="_blank" title=""><img src="images/pic04.jpg" width="400" height="500" alt="" /></a></li>
+			<li><a href="#" target="_blank" title=""><img src="images/pic05.jpg" width="400" height="500" alt="" /></a></li>
+			<li><a href="#" target="_blank" title=""><img src="images/pic06.jpg" width="400" height="500" alt="" /></a></li>
+		</ul>
+		</div>
+		<div class="scroll_right" id="RightArr"></div>
+	</div>
+</div>
+</body>
+</html>
+<script src="scrollPic.js"></script>
+<script>
+window.onload = function(){
+	scrollPic();
+}
+function scrollPic() {
+	var scrollPic = new ScrollPic();
+	scrollPic.scrollContId   = "scrollPic"; //内容容器ID
+	scrollPic.arrLeftId      = "LeftArr";//左箭头ID
+	scrollPic.arrRightId     = "RightArr"; //右箭头ID
+
+	scrollPic.frameWidth     = 980;//显示框宽度
+	scrollPic.pageWidth      = 404; //翻页宽度
+
+	scrollPic.speed          = 10; //移动速度(单位毫秒，越小越快)
+	scrollPic.space          = 30; //每次移动像素(单位px，越大越快)
+	scrollPic.autoPlay       = true; //自动播放
+	scrollPic.autoPlayTime   = 3; //自动播放间隔时间(秒)
+
+	scrollPic.initialize(); //初始化
+}
+</script>

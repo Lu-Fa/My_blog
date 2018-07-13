@@ -1,0 +1,1 @@
+config.xml 文件中的  <MovieURL>xxxx.swf</MovieURL>  改成你的swf地址（可用相对地址），如“<MovieURL>d:/test.swf</MovieURL>”

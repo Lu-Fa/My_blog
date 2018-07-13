@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>mymusicbox</title>
+     <script src="jquery-1.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Mymusicbox.css">
+    <script src="Mymusicbox.js"></script>
+   <script type="text/javascript" src="log.js"></script>
+</head>
+<body>
+    <!--在页面放置一个audio元素，因为我们使用自己设计的播放界面，所以这边不用他们的controls。-->
+<audio id="myMusic" > </audio> 
+
+<!--这边放置一个隐藏域，他的作用是存放媒体文件暂停的时间点-->
+<input id="PauseTime"  type="hidden" />
+
+    <!--编写音乐盒的界面-->
+    <div class="MusicBox" >
+
+    <div class="LeftControl" ></div> <!--上一个媒体文件的控制图标-->
+    <div id="MainControl" class="MainControl" ></div>  <!--开始和暂停的控制图标-->
+    <div class="RightControl" ></div> <!--下一个媒体文件的控制图标-->
+    
+    <div class="ProcessControl"><!--进度条-->
+    <div class="SongName">My Music Box!</div> <!--媒体文件标题-->
+    <div class="SongTime">00:00&nbsp;|&nbsp;00:00</div> <!--时间进度-->
+    <div class="Process" ></div> <!--全部时长的进度条-->
+    <div class="ProcessYet"></div> <!--已播放时长的进度条-->
+    </div>
+    
+    <div class="VoiceEmp"></div> <!--静音图标-->
+    <div class="VoidProcess" ></div> <!--全音量进度条-->
+    <div class="VoidProcessYet" ></div> <!--当前音量进度条-->
+    <div class="VoiceFull" ></div> <!-- 全音量图标-->
+    <div class="ShowMusicList" ></div> <!--显示或隐藏媒体文件列表图标-->
+
+    </div>
+    
+    <div class="lyrics">歌词</div>
+    <div class="MusicList">  <!--媒体文件列表区域-->
+     
+    <div class="Author"></div> <!--当前媒体文件的-->
+    <div class="List"><!--媒体文件列表-->
+     <div class="Single"><span class="SongName"  KV="因为爱情" >因为爱情</span></div>
+     <div class="Single"> <span class="SongName"  KV="Lenka - Trouble Is A Friend" >Trouble Is A Friend</span></div>
+     <div class="Single"><span class="SongName" KV="Lovestoned - Bye Bye Bye"></span>Bye Bye Bye</div>
+     <div class="Single"><span class="SongName" KV="Joel Hanson、Sara Groves - Traveling Light">Traveling Light</span></div>
+     <div class="Single"><span class="SongName" KV="Maroon 5、Wiz Khalifa - Payphone">Payphone</span></div>
+     <div class="Single"><span class="SongName" KV="Rixton - Me And My Broken Heart">My Broken Heart</span></div>
+     <div class="Single"><span class="SongName" KV="Stupid">Stupid</span></div>
+     <div class="Single"><span class="SongName" KV=""></span>6</div>
+     <div class="Single"><span class="SongName" KV=""></span>7</div>
+     <div class="Single"><span class="SongName" KV=""></span>8</div>
+   <!-- <div class="Single" > //单个媒体文件
+    <span class="SongName"  KV="Lenka - Trouble Is A Friend" KV="Fate">02.Fate</span>
+   
+    </div> -->
+    
+    </div>
+    </div>
+    </body>
+</html>

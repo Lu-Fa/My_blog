@@ -1,0 +1,64 @@
+
+	*
+	{
+		margin:0;
+		padding:0;
+	}
+	body
+	{
+		background:#95C05C;
+		text-align: center;
+	}
+	h1
+	{
+	   color: #D95A18;
+		font-size: 48px;
+		margin-top: 200px;
+
+	}
+	ul
+	{
+		list-style:none;
+	}
+	img
+	{
+		border:0;
+	}
+	.scroll
+	{
+		width:1080px;height:900px;
+	}
+	.scroll_left
+	{
+		width:23px;
+		height:300px;
+		background:url(images/btn_left1.jpg) no-repeat;
+		float:left;
+		margin-top: 200px;
+
+	}
+	.scroll_right
+	{
+		width:23px;
+		height:420px;
+		background:url(images/btn_right1.jpg) left no-repeat;
+		float:left;
+		
+	}
+	.pic
+	{
+		width:912px;
+		height:630px;
+		float:left;
+	}
+	.pic ul
+	{
+		display:block;
+	}
+	.pic li
+	{
+		float:left;
+		display:inline;
+		width:408px;
+		text-align:center;
+	}

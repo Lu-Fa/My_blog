@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My blog</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+
+<script src="js/js1.js"></script>
+
+</head>
+
+<body>
+<header><!--页头-->
+<nav><!--导航栏-->
+    <ul>
+	<li id="logo"><a href="bug/404.html"><embed src="Myvideo/videos/写字2.swf" width="60px" height="50px"></embed></a></li>
+	<li class="show"><a href="#" onmouseover="showhid('downmenu1')"
+	>侧栏菜单</a></li>
+	<li><a href="Myvideo/Myvideo.html">我的影院</a></li>
+	<li><a href="Mygame/Mygame.html">我的游戏</a></li>
+	<li><a href="Mypictures/scrollPic.html">我的相册</a></li>
+	<li><a href="music/Mymusic/Mymusicbox.html">我的音乐盒</a></li>
+	</ul>
+
+</nav>
+<style>
+.show a{ color:#5C95B2;}
+.hidden{top:20px; float: right; background:#888578; }
+.hidden a{ color:#BF4C15;}
+ </style>
+<div class="show" onmouseover="showhid('downmenu1')" onmouseout="showhid2('downmenu1')">
+               
+                <div class="hidden" id="downmenu1" style=" display:none;">
+        <li><a href="#"> 项目1</a></li>
+        <li><a href="#">项目 2</a></li>
+        <li><a href="#">项目3</a></li>
+        <li><a href="#"> 项目4</a></li>
+        <li><a href="#">项目 5</a></li>
+        <li><a href="#">项目6</a></li>
+         </div></div>
+<script>
+function showhid(id){
+ document.getElementById(id).style.display ='block';
+}
+function showhid2(id){
+ document.getElementById(id).style.display ='none';
+}
+</script>
+
+<div id="SideMenus"></div>
+</header>
+
+<div id="content"><!--内容开始-->
+<div class="inner">
+<marquee><q>It's fine to celebrate success, but it is more important to heed the lessons of failure.</q></marquee>
+</div>
+<div class="section1">
+	<img src="PIC/3.jpg">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  illo.</p>
+</div>
+<div class="section2"><img src="PIC/4.jpg"></div>
+<div class="section3"><img src="PIC/2.jpg"></div>
+
+
+
+	
+
+</div><!--内容结束-->
+
+
+<footer><!--页脚-->
+
+<ul>
+	<li><a href="#">FBI</a></li>
+	<li><a href="http://www.baidu.com">百度</a></li>
+	<li><a href="http://blog.csdn.net">CSDN</a></li>
+	<li><a href="https://github.com/">Github</a></li>
+</ul>
+</footer>
+</body>
+</html>
+
+
